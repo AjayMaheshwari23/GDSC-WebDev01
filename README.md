@@ -4,13 +4,7 @@
 
 - [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repo
 
-![GitHub workflow to create a fork](public/images/GitHub_workflow.png)
-
 - [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your fork locally
-
-```bash
-git clone <url you just copied>
-```
 
 - Start coding!
 
