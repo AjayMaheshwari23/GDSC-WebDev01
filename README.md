@@ -2,7 +2,7 @@
 
 ## How to get started
 
-### 1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repo
+### 1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and [Star](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars) the repo
 
 ![GitHub workflow to create a fork](public/images/GitHub_workflow.png)
 
