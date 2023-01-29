@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link
+      rel="shortcut icon"
+      href="public/assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="public/assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="public/assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="public/assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="public/assets/site.webmanifest" />
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="public/SFProText/stylesheet.css" />
+    <link rel="stylesheet" href="public/SFRounded/stylesheet.css" />
+    <link rel="stylesheet" href="public/SFProDisplay/stylesheet.css" />
+  </head>
+
+  <body background="public/images/bg.jpeg">
+    <nav class="bg-glass">
+      <a class="nav-title" href="/">Todo List</a>
+      <div class="nav-list-wrapper">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <form class="d-flex">
+              <input
+                class="form-control me-2 custom-form-inp"
+                id="searchTxt"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="classic-btn" type="submit">Search</button>
+            </form>
+          </li>
+          <!-- <li>
+            <button>Click Me!</button>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+    <div class="container main-container">
+      <h1 class="text-white">To-Do List</h1>
+      <div class="card bg-glass-r main-card">
+        <div class="card-body rounded">
+          <div class="mb-3">
+            <h5 class="cardtitle">Title</h5>
+            <input
+              type="text"
+              class="form-control text-white bg-gray"
+              id="addTitle"
+              aria-describedby="titlecard"
+              placeholder="Enter Title"
+            />
+          </div>
+          <h5 class="cardtitle">Time</h5>
+          <input
+            value="13:30"
+            type="time"
+            class="form-control text-white bg-gray"
+            id="addTime"
+            aria-describedby="titlecard"
+          />
+          <div class="my-3">
+            <h5 class="card-title">Description</h5>
+            <div class="form-group">
+              <textarea
+                placeholder="Add description"
+                class="form-control text-white bg-gray"
+                rows="3"
+                id="addTxt"
+              ></textarea>
+            </div>
+          </div>
+          <div id="addbtndiv">
+            <button class="classic-btn" id="addBtn">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- my-3 is used for margin -->
+    <div class="text-center">
+      <h3 class="text-white">Your todos</h3>
+      <hr />
+      <div id="notes" class="row container-fluid">
+        <!-- row class helps to put the card in row and container-fluid allows it to have distance from the sides -->
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
