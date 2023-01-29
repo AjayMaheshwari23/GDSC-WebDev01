@@ -2,11 +2,17 @@
 
 ## How to get started
 
-- [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repo
+### 1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repo
 
-- [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your fork locally
+![GitHub workflow to create a fork](public/images/GitHub_workflow.png)
 
-- Start coding!
+### 2. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your fork locally
+
+```bash
+git clone <remote repo URL (ends with .git)>
+```
+
+### 3. Start coding!
 
 ## For further reading
 
