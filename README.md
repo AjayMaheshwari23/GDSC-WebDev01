@@ -2,7 +2,7 @@
 
 ## How to get started
 
-- [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repo
+- [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and [Star](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars) the repo
 
 - [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your fork locally
 
